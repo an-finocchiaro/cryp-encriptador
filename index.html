@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Cryp</title>
+		<link rel="icon" href="dados-criptografados.png">
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<header>
+			<div class="caixa">
+				<h1><img class="logo" alt="Logotipo do Cryp" src="logo.png"></h1>
+			</div>
+		</header>
+
+		<main class="main">
+			<section>
+				<textarea cols="50" rows="13" placeholder="Digite aqui o texto que você quer criptografar ou descriptografar" class="input-texto"></textarea>
+
+				<h6>Apenas letras maiúsculas e minúsculas</h6>
+
+				<div class="botoes">
+					<button class="encriptar" onclick="btnEncriptar()">Criptografar</button>
+					<button class="desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+				</div>
+			</section>
+
+			<section>
+				<textarea cols="50" rows="13" placeholder="Veja aqui sua mensagem criptografada ou descriptografada" id="textArea" class="mensagem"></textarea>
+
+				<div class="botao-copiar">
+					<button class="copiar-texto" onclick="copiarTexto()">Copiar Texto</button>
+					<button class="limpa-tela" onclick="limpaTela()">Limpar Tela</button>
+				</div>
+			</section>
+		</main>
+		<script src="script.js"></script>
+
+		<footer>
+			<div class="rodape">
+				<p class="credito">Este site foi desenvolvido por Andréa Finocchiaro</p>
+			</div>
+		</footer>
+		
+	</body>
+</html>

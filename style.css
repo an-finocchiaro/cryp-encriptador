@@ -1,0 +1,105 @@
+.caixa {
+	background:#b5b38c;
+}
+
+.logo {
+	width:400px;
+}
+
+.main {
+	display:flex;
+	background:#b5b38c;
+	padding:10px;
+}
+
+.mensagem {
+	background-image:url("procurando.png");
+	background-size:250px;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+.texto-inicial {
+	font-family: 'Ubuntu', sans-serif;
+	font-size:40px;
+}
+
+textarea {
+	font-family: 'Ubuntu', sans-serif;
+	font-size:20px;
+	margin:0 0 0 80px;
+	background:#b5b38c
+}
+
+h6 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size:14px;
+	margin:10px 0 0 80px;
+	color: #555555;
+}
+
+.botoes {
+	display:flex;
+	flex-direction:row;
+}
+
+.encriptar {
+	width:120px;
+	background-color:#000020; 
+	color:white;
+	border-style:none;
+	border-radius:10px;
+	padding:10px;
+	margin-top:20px;
+	margin-left:80px;
+	cursor:pointer;
+
+}
+
+.desencriptar {
+	width:120px;
+	background-color:#000020; 
+	color:white;
+	border-style:none;
+	border-radius:10px;
+	padding:10px;
+	margin-top:20px;
+	margin-left:30px;
+	cursor:pointer;
+}
+
+.copiar-texto {
+	width:120px;
+	background-color:#000020; 
+	color:white;
+	border-style:none;
+	border-radius:10px;
+	padding:10px;
+	margin-top:42px;
+	margin-left:80px;
+	cursor:pointer;
+}
+
+.limpa-tela {
+	width:120px;
+	background-color:#000020; 
+	color:white;
+	border-style:none;
+	border-radius:10px;
+	padding:10px;
+	margin-top:42px;
+	margin-left:30px;
+	cursor:pointer;
+}
+
+footer {
+	color:#303030;
+	font-family: 'Ubuntu', sans-serif;
+	font-size:12px;
+	text-align:center;
+}
+
+.rodape {
+	background-color:#b5b38c;
+	padding:15px;
+}
